@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..//index.htlm"><img src="..//img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="..//index.html" class="active">Home</a></li>
+                    <li><a href="..//About.html">About</a></li>
+                    <li><a href="..//Crops.html">Crops</a></li>   
+                    <li><a href="..//Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="sections">
+        <div class="containerss">
+            <div class="names">
+                <h1>SUNFLOWERS</h1>
+            </div>
+            <div class="contentss">
+                <div class="arti">
+                    <h3> How to grow: Annual. Germination: 14 days, 70 degrees F. Full sun. Direct sow in May or June. Space 12-18” apart.
+                         Taller varieties may need staking. Early in the growth stage, place a pole at the base of the stalk. 
+                         As the stem grows, use twine or soft ties to secure it to the stake every 6’ or so. 
+                         History: Some archaeologists believe that Native Americans may have cultivated sunflowers as early as 3000 B.C. 
+                         Uses: You can leave any remaining seed-heads in the garden for fall and winter visitors. Or you can cut and dry the seed-heads indoors. 
+                         Throughout the winter months, tie dried heads to trees or to your deck to create feeding stations.Uses: You can leave any remaining seed-heads in the garden for fall and winter visitors. Or you can cut and dry the seed-heads indoors. 
+                        Throughout the winter months, tie dried heads to fences or to your deck or suspend in trees to feed birds.</h3>
+                    <div class="button">
+                        <a href="..//flower.html">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-sec">
+                <img src="img/s.jpg" >
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+<!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+

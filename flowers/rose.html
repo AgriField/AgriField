@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="vieport" content="with=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="..//index.htlm"><img src="..//img/agri.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="..//index.html" class="active">Home</a></li>
+                    <li><a href="..//About.html">About</a></li>
+                    <li><a href="..//Crops.html">Crops</a></li>   
+                    <li><a href="..//Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <div class="sections">
+        <div class="containerss">
+            <div class="names">
+                <h1>ROSE</h1>
+            </div>
+            <div class="contentss">
+                <div class="arti">
+                    <h3> How to Grow: Cotton is an annual plant that requires a long, warm growing season to mature properly. Needs full sun. In zones 8-10 it can be sown directly after the last frost. In zones 5-7, treat like tomatoes, start seed indoors and transplant out 4-8 week-old seedlings after last frost. Seed germinates in 7-21 days at 70 degrees F. Plant 18-30 in. apart in rows 5 ft. apart. Plants start flowering in mid-summer. Bolls take a few more months to mature; warm late summer weather is necessary for a good crop. Plants grow to 3-7 ft. tall.
+
+                        <br><br>Harvest: Wait for bolls to split open before harvesting. (Note: bolls that split open after a frost are damaged and immature.)
+                        
+                        <br><br>Seed Savers: Isolate varieties by 1/8 mile for home use, or 1/4 to 1/2 mile or greater for pure seed.</h3>
+                    <div class="button">
+                        <a href="..//flower.html">Go Back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-sec">
+                <img src="img/a.jpeg" >
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    
+
+<!------------JAVA script for toggle menu ------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
+
